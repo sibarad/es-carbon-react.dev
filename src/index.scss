@@ -1,0 +1,9 @@
+@import '~carbon-components/scss/globals/scss/styles.scss';
+@import 'globals/scss/styles.scss';
+
+body {
+  margin: 0;
+  font-family: $body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,55 @@
+@import "_settings.color-system.scss";
+////////////////////
+// Color Variables
+///////////////////
+
+// -------- Fades --------
+$black-fade-20:      rgba($black, 0.20); //dropshadow
+
+// Background Colors //
+$bg-white: $white;
+
+$bg-blue-light: $blue-00;
+$bg-blue: $blue-40;
+$bg-blue-dark: $blue-60;
+
+$bg-gray-light: $gray-00;
+$bg-gray: $gray-10;
+$bg-gray-mid: $gray-70;
+$bg-gray-dark: $gray-80;
+
+$bg-red-light: $red-00;
+$bg-orange-light: $orange-00;
+$bg-green-light: $green-00;
+
+
+// Border Colors //
+$border-gray-light: $gray-00;
+$border-gray: $gray-10;
+$border-gray-darker: $gray-20;
+$border-red-darker: $red-30;
+
+
+// Text Colors //
+$text-white: $white;
+$text-gray-light: $gray-50;
+$text-gray: $gray-60;
+$text-gray-dark: $gray-80;
+
+$text-red: $red-60;
+$text-orange: $orange-60;
+$text-green: $green-50;
+$text-blue: $blue-100;
+
+$text-teal: $teal-50;
+
+
+// Link Colors //
+$link-gray: $gray-10;
+$link-blue: $blue-60;
+$link-blue-hover: $blue-50;
+
+// Button colors //
+$btn-text: $white;
+$btn-bg: $blue-40;
+$btn-secondary-bg: $blue-60;

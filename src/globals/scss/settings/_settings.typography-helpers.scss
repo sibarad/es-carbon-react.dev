@@ -1,0 +1,21 @@
+////////////////////
+//  #TYPOGRAPHY HELPERS
+////////////////////
+
+//** Font Stack **//
+$body-font: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+
+// Line heights //
+$lh-header: 1.25;
+$lh-header-alt: 1.33;
+$lh-default: 1.5;
+
+// Font weights //
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//** The base body size *//
+$body-font-size: $font-size-2;
+$body-line-height: $lh-default;
