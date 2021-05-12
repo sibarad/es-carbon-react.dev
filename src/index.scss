@@ -1,9 +1,38 @@
-@import '~carbon-components/scss/globals/scss/styles.scss';
 @import 'globals/scss/styles.scss';
+//@include carbon--es--theme();
+@import '~carbon-components/scss/globals/scss/styles.scss';
+//@import '@carbon/themes/scss/themes';
 
 body {
   margin: 0;
   font-family: $body-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bx--fieldset {
+  display: block;
+  border: 2px #e7f3f3 solid;
+  border-radius: 8px;
+  padding: 16px 16px 16px;
+  outline: none;
+}
+
+.bx--label {
+  display: none;
+}
+
+.bx--checkbox-label::before {
+  border: 2px solid #80909B;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+
+.bx--checkbox:checked + .bx--checkbox-label::before, .bx--checkbox:indeterminate + .bx--checkbox-label::before, .bx--checkbox-label[data-contained-checkbox-state='true']::before, .bx--checkbox-label[data-contained-checkbox-state='mixed']::before {
+  background-color: #2196F3;
+  border: 2px solid #2196F3;
+}
+
+.bx--checkbox-label {
+  font-size: 1rem;
 }
